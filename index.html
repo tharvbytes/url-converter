@@ -1,0 +1,1831 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- =========================================
+         BASIC
+    ========================================== -->
+
+    <meta charset="utf-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1"
+    >
+
+    <meta
+        name="description"
+        content="Convert GitHub repository, file, folder, and raw URLs into jsDelivr CDN URLs instantly. Free, fast, and browser-based GitHub to jsDelivr URL converter."
+    >
+
+    <meta
+        name="keywords"
+        content="GitHub to jsDelivr, GitHub CDN, jsDelivr URL converter, GitHub CDN URL, raw GitHub URL, GitHub raw URL, jsDelivr CDN, GitHub file URL, GitHub repository CDN, CDN converter, developer tools"
+    >
+
+    <meta
+        name="author"
+        content="TharBytes"
+    >
+
+    <meta
+        name="creator"
+        content="TharBytes"
+    >
+
+    <meta
+        name="publisher"
+        content="TharBytes"
+    >
+
+    <meta
+        name="robots"
+        content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+    >
+
+    <meta
+        name="googlebot"
+        content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+    >
+
+    <meta
+        name="referrer"
+        content="strict-origin-when-cross-origin"
+    >
+
+
+    <!-- =========================================
+         TITLE
+    ========================================== -->
+
+    <title>
+        GitHub to jsDelivr URL Converter | TharBytes
+    </title>
+
+
+    <!-- =========================================
+         CANONICAL
+    ========================================== -->
+
+    <link
+        rel="canonical"
+        href="https://tharvbytes.github.io/"
+    >
+
+
+    <!-- =========================================
+         OPEN GRAPH
+    ========================================== -->
+
+    <meta
+        property="og:locale"
+        content="en_US"
+    >
+
+    <meta
+        property="og:type"
+        content="website"
+    >
+
+    <meta
+        property="og:title"
+        content="GitHub to jsDelivr URL Converter"
+    >
+
+    <meta
+        property="og:description"
+        content="Convert GitHub repository, file, folder, and raw URLs into jsDelivr CDN URLs instantly."
+    >
+
+    <meta
+        property="og:url"
+        content="https://tharvbytes.github.io/"
+    >
+
+    <meta
+        property="og:site_name"
+        content="TharBytes"
+    >
+
+    <meta
+        property="og:image"
+        content="https://tharvbytes.github.io/og-image.png"
+    >
+
+    <meta
+        property="og:image:secure_url"
+        content="https://tharvbytes.github.io/og-image.png"
+    >
+
+    <meta
+        property="og:image:type"
+        content="image/png"
+    >
+
+    <meta
+        property="og:image:width"
+        content="1200"
+    >
+
+    <meta
+        property="og:image:height"
+        content="630"
+    >
+
+    <meta
+        property="og:image:alt"
+        content="GitHub to jsDelivr URL Converter by TharBytes"
+    >
+
+
+    <!-- =========================================
+         TWITTER / X
+    ========================================== -->
+
+    <meta
+        name="twitter:card"
+        content="summary_large_image"
+    >
+
+    <meta
+        name="twitter:title"
+        content="GitHub to jsDelivr URL Converter"
+    >
+
+    <meta
+        name="twitter:description"
+        content="Convert GitHub repository, file, folder, and raw URLs into jsDelivr CDN URLs instantly."
+    >
+
+    <meta
+        name="twitter:image"
+        content="https://tharvbytes.github.io/og-image.png"
+    >
+
+    <meta
+        name="twitter:image:alt"
+        content="GitHub to jsDelivr URL Converter by TharBytes"
+    >
+
+    <meta
+        name="twitter:site"
+        content="@tharveshmuhaideen"
+    >
+
+    <meta
+        name="twitter:creator"
+        content="@tharveshmuhaideen"
+    >
+
+
+    <!-- =========================================
+         THEME / APPLICATION
+    ========================================== -->
+
+    <meta
+        name="theme-color"
+        content="#102A43"
+    >
+
+    <meta
+        name="color-scheme"
+        content="light dark"
+    >
+
+    <meta
+        name="application-name"
+        content="GitHub to jsDelivr Converter"
+    >
+
+    <meta
+        name="apple-mobile-web-app-title"
+        content="GitHub → jsDelivr"
+    >
+
+    <meta
+        name="apple-mobile-web-app-capable"
+        content="yes"
+    >
+
+    <meta
+        name="apple-mobile-web-app-status-bar-style"
+        content="default"
+    >
+
+
+    <!-- =========================================
+         FAVICONS
+    ========================================== -->
+
+    <link
+        rel="icon"
+        type="image/x-icon"
+        href="/favicon.ico"
+    >
+
+    <link
+        rel="icon"
+        type="image/svg+xml"
+        href="/icons/favicon.svg"
+    >
+
+    <link
+        rel="icon"
+        type="image/png"
+        sizes="48x48"
+        href="/icons/favicon-48x48.png"
+    >
+
+    <link
+        rel="icon"
+        type="image/png"
+        sizes="32x32"
+        href="/icons/favicon-32x32.png"
+    >
+
+    <link
+        rel="icon"
+        type="image/png"
+        sizes="16x16"
+        href="/icons/favicon-16x16.png"
+    >
+
+    <link
+        rel="apple-touch-icon"
+        sizes="180x180"
+        href="/icons/apple-touch-icon.png"
+    >
+
+
+    <!-- =========================================
+         WEB APP MANIFEST
+    ========================================== -->
+
+    <link
+        rel="manifest"
+        href="/site.webmanifest"
+    >
+
+
+    <!-- =========================================
+         STRUCTURED DATA
+    ========================================== -->
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "GitHub to jsDelivr URL Converter",
+        "alternateName": "GitHub → jsDelivr Converter",
+        "url": "https://tharvbytes.github.io/",
+        "description": "Convert GitHub repository, file, folder, and raw URLs into jsDelivr CDN URLs instantly.",
+        "applicationCategory": "DeveloperApplication",
+        "applicationSubCategory": "Developer Tool",
+        "operatingSystem": "Web Browser",
+        "browserRequirements": "Requires JavaScript",
+        "isAccessibleForFree": true,
+        "author": {
+            "@type": "Organization",
+            "name": "TharBytes",
+            "url": "https://tharbytes.dev/"
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "TharBytes",
+            "url": "https://tharbytes.dev/"
+        },
+        "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+        }
+    }
+    </script>
+
+
+    <!-- =========================================
+         BREADCRUMB STRUCTURED DATA
+    ========================================== -->
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "TharBytes",
+                "item": "https://tharbytes.dev/"
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "GitHub to jsDelivr Converter",
+                "item": "https://tharvbytes.github.io/"
+            }
+        ]
+    }
+    </script>
+
+
+    <!-- =========================================
+         SECURITY / CONNECTION
+    ========================================== -->
+
+    <meta
+        http-equiv="X-UA-Compatible"
+        content="IE=edge"
+    >
+
+
+    <!-- =========================================
+         OPTIONAL PERFORMANCE HINTS
+    ========================================== -->
+
+    <link
+        rel="dns-prefetch"
+        href="https://cdn.jsdelivr.net/"
+    >
+
+    <link
+        rel="preconnect"
+        href="https://cdn.jsdelivr.net/"
+        crossorigin
+    >
+
+    <style>
+        :root {
+            --primary: #102A43;
+            --background: #FAFCFF;
+        }
+
+        [data-theme="night"] {
+            --primary: #FAFCFF;
+            --background: #102A43;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            color-scheme: light;
+        }
+
+        html[data-theme="night"] {
+            color-scheme: dark;
+        }
+
+        body {
+            min-height: 100vh;
+
+            background: var(--background);
+            color: var(--primary);
+
+            font-family:
+                Inter,
+                ui-sans-serif,
+                system-ui,
+                -apple-system,
+                BlinkMacSystemFont,
+                "Segoe UI",
+                sans-serif;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            padding: 24px;
+
+            transition:
+                background-color 0.25s ease,
+                color 0.25s ease;
+        }
+
+        button,
+        input {
+            font: inherit;
+        }
+
+        /* =========================================
+           CONTAINER
+        ========================================= */
+
+        .container {
+            width: 100%;
+            max-width: 760px;
+        }
+
+        /* =========================================
+           HEADER
+        ========================================= */
+
+        .header {
+            margin-bottom: 28px;
+        }
+
+        .topbar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            margin-bottom: 20px;
+        }
+
+        .badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+
+            padding: 6px 10px;
+
+            border: 1px solid var(--primary);
+            border-radius: 999px;
+
+            color: var(--primary);
+
+            font-size: 12px;
+            font-weight: 700;
+        }
+
+        .badge::before {
+            content: "";
+
+            width: 7px;
+            height: 7px;
+
+            border-radius: 50%;
+
+            background: var(--primary);
+        }
+
+        /* =========================================
+           THEME SWITCH
+        ========================================= */
+
+        .theme-toggle {
+            width: 42px;
+            height: 42px;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            border: 1px solid var(--primary);
+            border-radius: 50%;
+
+            background: var(--background);
+            color: var(--primary);
+
+            cursor: pointer;
+
+            transition:
+                background-color 0.25s ease,
+                color 0.25s ease,
+                transform 0.15s ease;
+        }
+
+        .theme-toggle:hover {
+            background: var(--primary);
+            color: var(--background);
+        }
+
+        .theme-toggle:active {
+            transform: scale(0.95);
+        }
+
+        .theme-icon {
+            width: 18px;
+            height: 18px;
+
+            display: block;
+        }
+
+        /* =========================================
+           HEADING
+        ========================================= */
+
+        h1 {
+            color: var(--primary);
+
+            font-size: clamp(30px, 5vw, 44px);
+            line-height: 1.08;
+
+            letter-spacing: -1.8px;
+
+            margin-bottom: 12px;
+        }
+
+        .description {
+            max-width: 620px;
+
+            color: var(--primary);
+
+            font-size: 15px;
+            line-height: 1.65;
+        }
+
+        /* =========================================
+           CARD
+        ========================================= */
+
+        .card {
+            padding: 22px;
+
+            background: var(--background);
+
+            border: 1px solid var(--primary);
+            border-radius: 14px;
+
+            transition:
+                background-color 0.25s ease,
+                color 0.25s ease;
+        }
+
+        /* =========================================
+           LABEL
+        ========================================= */
+
+        label {
+            display: block;
+
+            margin-bottom: 9px;
+
+            color: var(--primary);
+
+            font-size: 13px;
+            font-weight: 700;
+        }
+
+        /* =========================================
+           INPUT
+        ========================================= */
+
+        .input-wrapper {
+            position: relative;
+        }
+
+        input {
+            width: 100%;
+            height: 52px;
+
+            padding: 0 48px 0 15px;
+
+            background: var(--background);
+            color: var(--primary);
+
+            border: 1px solid var(--primary);
+            border-radius: 9px;
+
+            outline: none;
+
+            font-family:
+                ui-monospace,
+                SFMono-Regular,
+                Menlo,
+                Monaco,
+                Consolas,
+                monospace;
+
+            font-size: 13px;
+
+            transition:
+                background-color 0.25s ease,
+                color 0.25s ease,
+                border-color 0.25s ease;
+        }
+
+        input::placeholder {
+            color: var(--primary);
+            opacity: 0.55;
+        }
+
+        input:focus {
+            border-width: 2px;
+        }
+
+        /* =========================================
+           CLEAR BUTTON
+        ========================================= */
+
+        .clear-btn {
+            position: absolute;
+
+            top: 50%;
+            right: 10px;
+
+            width: 30px;
+            height: 30px;
+
+            transform: translateY(-50%);
+
+            display: none;
+            align-items: center;
+            justify-content: center;
+
+            border: 0;
+            border-radius: 6px;
+
+            background: var(--background);
+            color: var(--primary);
+
+            cursor: pointer;
+
+            font-size: 18px;
+        }
+
+        .clear-btn:hover {
+            background: var(--primary);
+            color: var(--background);
+        }
+
+        /* =========================================
+           CONVERT BUTTON
+        ========================================= */
+
+        .convert-btn {
+            width: 100%;
+            height: 48px;
+
+            margin-top: 14px;
+
+            border: 1px solid var(--primary);
+            border-radius: 8px;
+
+            background: var(--primary);
+            color: var(--background);
+
+            font-size: 14px;
+            font-weight: 700;
+
+            cursor: pointer;
+
+            transition:
+                background-color 0.25s ease,
+                color 0.25s ease,
+                transform 0.1s ease;
+        }
+
+        .convert-btn:hover {
+            background: var(--background);
+            color: var(--primary);
+        }
+
+        .convert-btn:active {
+            transform: translateY(1px);
+        }
+
+        /* =========================================
+           RESULT
+        ========================================= */
+
+        .result {
+            display: none;
+
+            margin-top: 20px;
+
+            overflow: hidden;
+
+            border: 1px solid var(--primary);
+            border-radius: 10px;
+        }
+
+        .result-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            padding: 11px 13px;
+
+            background: var(--primary);
+            color: var(--background);
+        }
+
+        .result-title {
+            font-size: 11px;
+            font-weight: 800;
+
+            letter-spacing: 0.6px;
+            text-transform: uppercase;
+        }
+
+        .type {
+            padding: 4px 7px;
+
+            border: 1px solid var(--background);
+            border-radius: 5px;
+
+            color: var(--background);
+
+            font-size: 10px;
+            font-weight: 700;
+
+            letter-spacing: 0.4px;
+        }
+
+        .result-body {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+
+            padding: 14px;
+
+            background: var(--background);
+        }
+
+        .result-url {
+            flex: 1;
+
+            color: var(--primary);
+
+            font-family:
+                ui-monospace,
+                SFMono-Regular,
+                Menlo,
+                Monaco,
+                Consolas,
+                monospace;
+
+            font-size: 12px;
+            line-height: 1.55;
+
+            overflow-wrap: anywhere;
+        }
+
+        .copy-btn {
+            flex-shrink: 0;
+
+            padding: 9px 13px;
+
+            border: 1px solid var(--primary);
+            border-radius: 7px;
+
+            background: var(--background);
+            color: var(--primary);
+
+            font-size: 12px;
+            font-weight: 700;
+
+            cursor: pointer;
+        }
+
+        .copy-btn:hover {
+            background: var(--primary);
+            color: var(--background);
+        }
+
+        /* =========================================
+           ERROR
+        ========================================= */
+
+        .error {
+            display: none;
+
+            margin-top: 14px;
+            padding: 11px 13px;
+
+            border: 1px solid var(--primary);
+            border-radius: 8px;
+
+            background: var(--primary);
+            color: var(--background);
+
+            font-size: 13px;
+            line-height: 1.5;
+        }
+
+        /* =========================================
+           EXAMPLES
+        ========================================= */
+
+        .examples {
+            margin-top: 24px;
+        }
+
+        .examples-title {
+            margin-bottom: 10px;
+
+            color: var(--primary);
+
+            font-size: 12px;
+            font-weight: 700;
+        }
+
+        .example {
+            padding: 12px;
+
+            margin-bottom: 8px;
+
+            border: 1px solid var(--primary);
+            border-radius: 8px;
+
+            background: var(--background);
+
+            cursor: pointer;
+
+            transition:
+                background-color 0.2s ease,
+                color 0.2s ease;
+        }
+
+        .example:hover {
+            background: var(--primary);
+            color: var(--background);
+        }
+
+        .example-label {
+            display: block;
+
+            margin-bottom: 5px;
+
+            color: var(--primary);
+
+            font-size: 12px;
+            font-weight: 700;
+        }
+
+        .example-url {
+            display: block;
+
+            color: var(--primary);
+
+            font-family:
+                ui-monospace,
+                SFMono-Regular,
+                Menlo,
+                Monaco,
+                Consolas,
+                monospace;
+
+            font-size: 11px;
+            line-height: 1.5;
+
+            overflow-wrap: anywhere;
+        }
+
+        .example:hover .example-label,
+        .example:hover .example-url {
+            color: var(--background);
+        }
+
+        /* =========================================
+           FOOTER
+        ========================================= */
+
+        .footer {
+            margin-top: 20px;
+
+            text-align: center;
+
+            color: var(--primary);
+
+            font-size: 11px;
+        }
+
+        /* =========================================
+           MOBILE
+        ========================================= */
+
+        @media (max-width: 600px) {
+
+            body {
+                padding: 16px;
+                align-items: flex-start;
+            }
+
+            .container {
+                margin-top: 25px;
+            }
+
+            .card {
+                padding: 16px;
+            }
+
+            .result-body {
+                flex-direction: column;
+                align-items: stretch;
+            }
+
+            .copy-btn {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+
+<body>
+
+<div class="container">
+
+    <!-- =========================================
+         HEADER
+    ========================================== -->
+
+    <header class="header">
+
+        <div class="topbar">
+
+            <div class="badge">
+                Developer Utility
+            </div>
+
+
+            <button
+                type="button"
+                class="theme-toggle"
+                id="themeToggle"
+                aria-label="Switch theme"
+                title="Switch theme"
+            >
+
+                <!-- Sun -->
+                <svg
+                    class="theme-icon"
+                    id="sunIcon"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                >
+                    <circle
+                        cx="12"
+                        cy="12"
+                        r="4"
+                    />
+
+                    <path d="M12 2v2" />
+                    <path d="M12 20v2" />
+                    <path d="m4.93 4.93 1.41 1.41" />
+                    <path d="m17.66 17.66 1.41 1.41" />
+                    <path d="M2 12h2" />
+                    <path d="M20 12h2" />
+                    <path d="m6.34 17.66-1.41 1.41" />
+                    <path d="m19.07 4.93-1.41 1.41" />
+                </svg>
+
+
+                <!-- Moon -->
+                <svg
+                    class="theme-icon"
+                    id="moonIcon"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    style="display: none;"
+                >
+                    <path
+                        d="M21 12.79A9 9 0 1 1 11.21 3
+                        7 7 0 0 0 21 12.79z"
+                    />
+                </svg>
+
+            </button>
+
+        </div>
+
+
+        <h1>
+            GitHub → jsDelivr
+        </h1>
+
+
+        <p class="description">
+            Convert GitHub repository, file, folder and raw URLs
+            into jsDelivr CDN URLs instantly.
+        </p>
+
+    </header>
+
+
+    <!-- =========================================
+         MAIN
+    ========================================== -->
+
+    <main class="card">
+
+        <label for="githubUrl">
+            GitHub URL
+        </label>
+
+
+        <div class="input-wrapper">
+
+            <input
+                type="text"
+                id="githubUrl"
+                placeholder="https://github.com/user/repository/blob/main/file.js"
+                autocomplete="off"
+                spellcheck="false"
+            >
+
+
+            <button
+                type="button"
+                class="clear-btn"
+                id="clearBtn"
+                aria-label="Clear URL"
+            >
+                ×
+            </button>
+
+        </div>
+
+
+        <button
+            type="button"
+            class="convert-btn"
+            id="convertBtn"
+        >
+            Convert URL
+        </button>
+
+
+        <div
+            class="error"
+            id="error"
+        ></div>
+
+
+        <!-- =====================================
+             RESULT
+        ====================================== -->
+
+        <div
+            class="result"
+            id="result"
+        >
+
+            <div class="result-header">
+
+                <span class="result-title">
+                    jsDelivr URL
+                </span>
+
+
+                <span
+                    class="type"
+                    id="resultType"
+                >
+                    FILE
+                </span>
+
+            </div>
+
+
+            <div class="result-body">
+
+                <div
+                    class="result-url"
+                    id="resultUrl"
+                ></div>
+
+
+                <button
+                    type="button"
+                    class="copy-btn"
+                    id="copyBtn"
+                >
+                    Copy
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <!-- =====================================
+             EXAMPLES
+        ====================================== -->
+
+        <div class="examples">
+
+            <div class="examples-title">
+                Examples — click to use
+            </div>
+
+
+            <div
+                class="example"
+                data-url="https://raw.githubusercontent.com/tharvbytes/Theme-System-Database/refs/heads/main/prestige.json"
+            >
+
+                <span class="example-label">
+                    Raw GitHub file
+                </span>
+
+                <span class="example-url">
+                    https://raw.githubusercontent.com/tharvbytes/Theme-System-Database/refs/heads/main/prestige.json
+                </span>
+
+            </div>
+
+
+            <div
+                class="example"
+                data-url="https://github.com/tharvbytes/Theme-System-Database/"
+            >
+
+                <span class="example-label">
+                    Repository
+                </span>
+
+                <span class="example-url">
+                    https://github.com/tharvbytes/Theme-System-Database/
+                </span>
+
+            </div>
+
+
+            <div
+                class="example"
+                data-url="https://github.com/tharvbytes/Theme-System-Database/blob/main/prestige.json"
+            >
+
+                <span class="example-label">
+                    GitHub file
+                </span>
+
+                <span class="example-url">
+                    https://github.com/tharvbytes/Theme-System-Database/blob/main/prestige.json
+                </span>
+
+            </div>
+
+        </div>
+
+    </main>
+
+
+    <footer class="footer">
+        GitHub URLs are converted locally in your browser.
+    </footer>
+
+</div>
+
+
+<script>
+
+    /* =========================================
+       ELEMENTS
+    ========================================== */
+
+    const html =
+        document.documentElement;
+
+    const themeToggle =
+        document.getElementById("themeToggle");
+
+    const sunIcon =
+        document.getElementById("sunIcon");
+
+    const moonIcon =
+        document.getElementById("moonIcon");
+
+    const githubUrl =
+        document.getElementById("githubUrl");
+
+    const convertBtn =
+        document.getElementById("convertBtn");
+
+    const clearBtn =
+        document.getElementById("clearBtn");
+
+    const result =
+        document.getElementById("result");
+
+    const resultUrl =
+        document.getElementById("resultUrl");
+
+    const resultType =
+        document.getElementById("resultType");
+
+    const error =
+        document.getElementById("error");
+
+    const copyBtn =
+        document.getElementById("copyBtn");
+
+
+    /* =========================================
+       THEME
+    ========================================== */
+
+    function setTheme(theme) {
+
+        html.setAttribute(
+            "data-theme",
+            theme
+        );
+
+
+        localStorage.setItem(
+            "githubJsdelivrTheme",
+            theme
+        );
+
+
+        if (theme === "night") {
+
+            sunIcon.style.display =
+                "none";
+
+            moonIcon.style.display =
+                "block";
+
+            themeToggle.setAttribute(
+                "aria-label",
+                "Switch to day theme"
+            );
+
+            themeToggle.setAttribute(
+                "title",
+                "Switch to day theme"
+            );
+
+        } else {
+
+            sunIcon.style.display =
+                "block";
+
+            moonIcon.style.display =
+                "none";
+
+            themeToggle.setAttribute(
+                "aria-label",
+                "Switch to night theme"
+            );
+
+            themeToggle.setAttribute(
+                "title",
+                "Switch to night theme"
+            );
+
+        }
+
+    }
+
+
+    const savedTheme =
+        localStorage.getItem(
+            "githubJsdelivrTheme"
+        );
+
+
+    setTheme(
+        savedTheme === "night"
+            ? "night"
+            : "day"
+    );
+
+
+    themeToggle.addEventListener(
+        "click",
+        function () {
+
+            const currentTheme =
+                html.getAttribute("data-theme");
+
+
+            setTheme(
+                currentTheme === "night"
+                    ? "day"
+                    : "night"
+            );
+
+        }
+    );
+
+
+    /* =========================================
+       ERROR
+    ========================================== */
+
+    function showError(message) {
+
+        error.textContent =
+            message;
+
+        error.style.display =
+            "block";
+
+        result.style.display =
+            "none";
+    }
+
+
+    function hideError() {
+
+        error.style.display =
+            "none";
+    }
+
+
+    /* =========================================
+       URL CONVERTER
+    ========================================== */
+
+    function convertGitHubUrl(input) {
+
+        let url;
+
+
+        try {
+
+            url = new URL(
+                input.trim()
+            );
+
+        } catch {
+
+            throw new Error(
+                "Please enter a valid GitHub URL."
+            );
+
+        }
+
+
+        const hostname =
+            url.hostname.toLowerCase();
+
+
+        /* =====================================
+           RAW GITHUB
+        ====================================== */
+
+        if (
+            hostname ===
+            "raw.githubusercontent.com"
+        ) {
+
+            const parts =
+                url.pathname
+                    .split("/")
+                    .filter(Boolean);
+
+
+            if (parts.length < 4) {
+
+                throw new Error(
+                    "Invalid raw GitHub URL."
+                );
+
+            }
+
+
+            const username =
+                parts[0];
+
+            const repo =
+                parts[1];
+
+            let branch;
+
+            let filePath;
+
+
+            /*
+             * /user/repo/refs/heads/main/file
+             */
+
+            if (
+                parts[2] === "refs" &&
+                parts[3] === "heads"
+            ) {
+
+                if (parts.length < 6) {
+
+                    throw new Error(
+                        "Branch or file path is missing."
+                    );
+
+                }
+
+
+                branch =
+                    parts[4];
+
+                filePath =
+                    parts.slice(5).join("/");
+
+            }
+
+
+            /*
+             * /user/repo/main/file
+             */
+
+            else {
+
+                branch =
+                    parts[2];
+
+                filePath =
+                    parts.slice(3).join("/");
+
+            }
+
+
+            if (!branch) {
+
+                throw new Error(
+                    "Branch could not be detected."
+                );
+
+            }
+
+
+            if (!filePath) {
+
+                throw new Error(
+                    "File path could not be detected."
+                );
+
+            }
+
+
+            return {
+
+                url:
+                    "https://cdn.jsdelivr.net/gh/" +
+                    username +
+                    "/" +
+                    repo +
+                    "@" +
+                    branch +
+                    "/" +
+                    filePath,
+
+                type: "RAW FILE"
+
+            };
+
+        }
+
+
+        /* =====================================
+           GITHUB
+        ====================================== */
+
+        if (
+            hostname !== "github.com" &&
+            hostname !== "www.github.com"
+        ) {
+
+            throw new Error(
+                "Please enter a GitHub or raw GitHub URL."
+            );
+
+        }
+
+
+        const parts =
+            url.pathname
+                .split("/")
+                .filter(Boolean);
+
+
+        if (parts.length < 2) {
+
+            throw new Error(
+                "Invalid GitHub repository URL."
+            );
+
+        }
+
+
+        const username =
+            parts[0];
+
+        const repo =
+            parts[1];
+
+
+        /* =====================================
+           REPOSITORY
+        ====================================== */
+
+        if (parts.length === 2) {
+
+            return {
+
+                url:
+                    "https://cdn.jsdelivr.net/gh/" +
+                    username +
+                    "/" +
+                    repo +
+                    "/",
+
+                type: "REPOSITORY"
+
+            };
+
+        }
+
+
+        /* =====================================
+           FILE / BLOB
+        ====================================== */
+
+        if (parts[2] === "blob") {
+
+            if (parts.length < 5) {
+
+                throw new Error(
+                    "Invalid GitHub file URL."
+                );
+
+            }
+
+
+            const branch =
+                parts[3];
+
+            const filePath =
+                parts.slice(4).join("/");
+
+
+            if (!branch || !filePath) {
+
+                throw new Error(
+                    "Branch or file path is missing."
+                );
+
+            }
+
+
+            return {
+
+                url:
+                    "https://cdn.jsdelivr.net/gh/" +
+                    username +
+                    "/" +
+                    repo +
+                    "@" +
+                    branch +
+                    "/" +
+                    filePath,
+
+                type: "FILE"
+
+            };
+
+        }
+
+
+        /* =====================================
+           FOLDER / TREE
+        ====================================== */
+
+        if (parts[2] === "tree") {
+
+            if (parts.length < 4) {
+
+                throw new Error(
+                    "Invalid GitHub branch URL."
+                );
+
+            }
+
+
+            const branch =
+                parts[3];
+
+            const folderPath =
+                parts.slice(4).join("/");
+
+
+            let converted =
+                "https://cdn.jsdelivr.net/gh/" +
+                username +
+                "/" +
+                repo +
+                "@" +
+                branch;
+
+
+            if (folderPath) {
+
+                converted +=
+                    "/" +
+                    folderPath;
+
+            }
+
+
+            return {
+
+                url: converted,
+
+                type: "FOLDER"
+
+            };
+
+        }
+
+
+        throw new Error(
+            "Unsupported GitHub URL. Use a repository, file, folder, or raw GitHub URL."
+        );
+
+    }
+
+
+    /* =========================================
+       CONVERT
+    ========================================== */
+
+    function convert() {
+
+        const input =
+            githubUrl.value.trim();
+
+
+        hideError();
+
+
+        if (!input) {
+
+            showError(
+                "Please enter a GitHub URL."
+            );
+
+            return;
+        }
+
+
+        try {
+
+            const converted =
+                convertGitHubUrl(input);
+
+
+            resultUrl.textContent =
+                converted.url;
+
+
+            resultType.textContent =
+                converted.type;
+
+
+            result.style.display =
+                "block";
+
+
+            copyBtn.textContent =
+                "Copy";
+
+        }
+
+        catch (err) {
+
+            showError(
+                err.message
+            );
+
+        }
+
+    }
+
+
+    /* =========================================
+       EVENTS
+    ========================================== */
+
+    convertBtn.addEventListener(
+        "click",
+        convert
+    );
+
+
+    githubUrl.addEventListener(
+        "keydown",
+        function (event) {
+
+            if (event.key === "Enter") {
+
+                convert();
+
+            }
+
+        }
+    );
+
+
+    githubUrl.addEventListener(
+        "input",
+        function () {
+
+            clearBtn.style.display =
+                githubUrl.value
+                    ? "flex"
+                    : "none";
+
+        }
+    );
+
+
+    clearBtn.addEventListener(
+        "click",
+        function () {
+
+            githubUrl.value = "";
+
+            clearBtn.style.display =
+                "none";
+
+            hideError();
+
+            result.style.display =
+                "none";
+
+            githubUrl.focus();
+
+        }
+    );
+
+
+    /* =========================================
+       COPY
+    ========================================== */
+
+    copyBtn.addEventListener(
+        "click",
+        async function () {
+
+            const text =
+                resultUrl.textContent;
+
+
+            try {
+
+                await navigator.clipboard
+                    .writeText(text);
+
+
+                copyBtn.textContent =
+                    "Copied!";
+
+
+                setTimeout(
+                    function () {
+
+                        copyBtn.textContent =
+                            "Copy";
+
+                    },
+                    1500
+                );
+
+            }
+
+            catch {
+
+                copyBtn.textContent =
+                    "Copy failed";
+
+            }
+
+        }
+    );
+
+
+    /* =========================================
+       EXAMPLES
+    ========================================== */
+
+    document
+        .querySelectorAll(".example")
+        .forEach(function (example) {
+
+            example.addEventListener(
+                "click",
+                function () {
+
+                    githubUrl.value =
+                        example.dataset.url;
+
+
+                    clearBtn.style.display =
+                        "flex";
+
+
+                    convert();
+
+                }
+            );
+
+        });
+
+</script>
+
+</body>
+</html>
